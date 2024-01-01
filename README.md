@@ -16,3 +16,7 @@ Execution:
 Remaining issues: 
 - Only works for square image files (x by x pixels). Rectangular images turns from an axb image turns into a bxb or axa image if b<a or a<b respectively.
 - Header creation
+
+References:
+https://github.com/jcbacong/CUDA-matrix-addition/blob/master/main.cu
+https://github.com/thomasplantin/cuda-image-processing/blob/master/main.cu
