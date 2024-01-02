@@ -1,4 +1,4 @@
-Image blur algorithm using CUDA
+OpenCV image blur algorithm using CUDA
 
 Algorithm:
 - Read image file into a grayscale 2D matrix.
@@ -15,8 +15,12 @@ Execution:
 
 Remaining issues: 
 - Only works for square image files (x by x pixels). Rectangular images turns from an axb image turns into a bxb or axa image if b<a or a<b respectively.
+
+Future plans
+- Processing a folder of image files
 - Header creation
 
 References:
-https://github.com/jcbacong/CUDA-matrix-addition/blob/master/main.cu
-https://github.com/thomasplantin/cuda-image-processing/blob/master/main.cu
+https://github.com/jcbacong/CUDA-matrix-addition/blob/master/main.cu (for matrix addition)
+https://github.com/thomasplantin/cuda-image-processing/blob/master/main.cu (for image processing algorithms using cuda)
+https://github.com/the-other-mariana/image-processing-algorithms/tree/master (for image processing algorithms using openmp)
