@@ -21,6 +21,6 @@ Future plans
 - Header creation
 
 References:
-https://github.com/jcbacong/CUDA-matrix-addition/blob/master/main.cu (for matrix addition)
-https://github.com/thomasplantin/cuda-image-processing/blob/master/main.cu (for image processing algorithms using cuda)
-https://github.com/the-other-mariana/image-processing-algorithms/tree/master (for image processing algorithms using openmp)
+- https://github.com/jcbacong/CUDA-matrix-addition/blob/master/main.cu (for matrix addition)
+- https://github.com/thomasplantin/cuda-image-processing/blob/master/main.cu (for image processing algorithms using cuda)
+- https://github.com/the-other-mariana/image-processing-algorithms/tree/master (for image processing algorithms using openmp)
