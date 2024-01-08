@@ -19,6 +19,7 @@ Remaining issues:
 Future plans
 - Processing a folder of image files
 - Header creation
+- Processing using a different image codec
 
 References:
 - https://github.com/jcbacong/CUDA-matrix-addition/blob/master/main.cu (for matrix addition)
