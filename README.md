@@ -10,7 +10,8 @@ Algorithm:
 
 Execution:
 - Open a terminal, create directory to the folder
-- Run "$ <path_to_nvcc>/nvcc -o <file_name>.out <file_name>.cu". This will invoke the nvcc compiler and create an object of the CUDA file.
+- Run "$ <path_to_nvcc>/nvcc -o <file_name>.out <file_name>.cu `pkg-config --cflags --libs opencv4`". This will invoke the nvcc compiler and create an object of the CUDA file.
+  (this footer `pkg-config --cflags --libs opencv4` is added so that the compiler invokes the library for opencv. this will avoid the header directory not being found.)
 - Run "$ ./<file_name>.out" to execute the object file.
 
 Remaining issues: 
